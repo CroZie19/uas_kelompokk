@@ -18,5 +18,7 @@ Route::get('/', function () {
 });
 
 //Route Resource
-Route::resource('/pengguna',
-\App\Http\Controllers\PenggunaController::class);
+Route::resource('/pengguna',\App\Http\Controllers\PenggunaController::class);
+
+//Route Resource
+Route::resource('/pegawai', App\Http\Controllers\PegawaiController::class);
